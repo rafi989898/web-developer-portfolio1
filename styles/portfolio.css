@@ -1,0 +1,248 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 230px;
+}
+
+.nav-title {
+	font-weight: 800;
+	font-size: 45px;
+}
+
+.text-primary {
+	color: #FD6E0A;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.dark2 {
+  color: #474747;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.btn-prim {
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.banner-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 0 228px;
+}
+
+.banner-greetings{
+ font-size: 45px;
+ font-weight: 600px; 
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.banner-dis {
+  font-size: 18px;
+  color: #757575;
+}
+
+.profile-pic{
+  width: 548px;
+}
+
+.banner-text {
+  max-width: 585px;
+}
+
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-des {
+  font-size: 18px;
+  color: #757575;
+}
+
+.sec-bg {
+  background-color: #FFF8F3;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  border-radius: 10px;
+  padding: 130px 120px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description {
+  font-weight: 600;
+}
+
+.what-i-do {
+  margin-top: 126px;
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.what-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+}
+
+.what-dis {
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+}
+
+.skill-section {
+  display: flex;
+  gap: 24px;  
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.skill-des {
+  font-size: 16px;
+  color: #757575;
+}
+
+.sum {
+  text-align: center;
+  margin-top: 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(24, 24, 24, 1);
+}
+
+.edu {
+  margin-right: 76px;
+}
+
+.edu-exp {
+  display: flex;
+}
+
+.edu-colm {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+
+.edu-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+
+.edu-sub {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 1);
+}
+
+.edu-des {
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.exp-colm {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(71, 71, 71, 1);
+}
+
+.exp-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(71, 71, 71, 1);
+}
+
+.exp-sub {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(117, 117, 117, 1);
+}
+
+.exp-des {
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+}
+
+.footer-clm {
+  width: 50%;
+}
+
+.ftext{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
